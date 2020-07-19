@@ -10,6 +10,43 @@ import UIKit
 import SnapKit
 
 class LoginViewController: UIViewController {
+    lazy var stackView: UIStackView = {
+        let stack = UIStackView()
+        stack.axis = .vertical
+        stack.spacing = 20.0
+        stack.alignment = .fill
+        stack.distribution = .fillEqually
+        [self.lblUsername,
+         self.txtUserName,
+         self.lblPassword,
+         self.txtPassword,
+         self.keepLoginStackView,
+         self.btnLogin].forEach { stack.addArrangedSubview($0) }
+        return stack
+    }()
+    
+    lazy var keepLoginStackView: UIStackView = {
+        let stackView = UIStackView()
+        stackView.axis = .horizontal
+        stackView.alignment = .trailing
+        stackView.distribution = .fill
+        [self.lblRememberMe,
+         self.swKeepLogin].forEach { stackView.addArrangedSubview($0) }
+        return stackView
+    }()
+    
+    lazy var lblRememberMe: UILabel = {
+        let lbl = UILabel()
+        lbl.text = "Keep Me Log in"
+        lbl.textColor = .lightGray
+        return lbl
+    }()
+    
+    lazy var swKeepLogin: UISwitch = {
+        let sw = UISwitch()
+        return sw
+    }()
+    
     lazy var lblLogin: UILabel = {
         let lbl = UILabel()
         lbl.font = .systemFont(ofSize: 30.0, weight: .bold)
@@ -49,6 +86,7 @@ class LoginViewController: UIViewController {
         btn.clipsToBounds = true
         btn.backgroundColor = .blue
         btn.setTitle("Log in", for: .normal)
+        btn.addTarget(self, action: #selector(btnLoginTouchUpInside), for: .touchUpInside)
         return btn
     }()
     
@@ -73,37 +111,16 @@ class LoginViewController: UIViewController {
             make.height.equalTo(30)
         }
         
-        view.addSubview(lblUsername)
-        lblUsername.snp.makeConstraints { (make) in
+        view.addSubview(stackView)
+        stackView.snp.makeConstraints { (make) in
             make.centerX.left.right.equalTo(lblLogin)
             make.top.equalTo(lblLogin.snp.bottom).offset(30)
-            make.height.equalTo(30)
+            make.height.equalTo(300)
         }
+    }
+    
+    @objc
+    func btnLoginTouchUpInside() {
         
-        view.addSubview(txtUserName)
-        txtUserName.snp.makeConstraints { (make) in
-            make.centerX.left.right.equalTo(lblUsername)
-            make.top.equalTo(lblUsername.snp.bottom).offset(20)
-            make.height.equalTo(35)
-        }
-        
-        view.addSubview(lblPassword)
-        lblPassword.snp.makeConstraints { (make) in
-            make.top.equalTo(txtUserName.snp.bottom).offset(20)
-            make.left.right.height.centerX.equalTo(lblUsername)
-        }
-        
-        view.addSubview(txtPassword)
-        txtPassword.snp.makeConstraints { (make) in
-            make.top.equalTo(lblPassword.snp.bottom).offset(20)
-            make.left.right.height.centerX.equalTo(txtUserName)
-        }
-        
-        view.addSubview(btnLogin)
-        btnLogin.snp.makeConstraints { (make) in
-            make.top.equalTo(txtPassword.snp.bottom).offset(20)
-            make.left.right.equalTo(txtPassword)
-            make.height.equalTo(40)
-        }
     }
 }
