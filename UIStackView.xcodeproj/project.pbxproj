@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		2EB65F2F01553BAA4C6A7D9C /* Pods_UIStackView_UIStackViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D3383E48C62C2C7465A1D2 /* Pods_UIStackView_UIStackViewUITests.framework */; };
 		38286C1924C3F545007425CF /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286C1824C3F545007425CF /* LogInViewController.swift */; };
+		386B46B924C87E53001D6137 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B46B824C87E53001D6137 /* HomePageViewController.swift */; };
+		38CE2FEB24CC5E3D0006E5C9 /* diningRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38CE2FE524CC5E3D0006E5C9 /* diningRoom.jpg */; };
+		38CE2FEC24CC5E3D0006E5C9 /* gameRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38CE2FE624CC5E3D0006E5C9 /* gameRoom.jpg */; };
+		38CE2FED24CC5E3D0006E5C9 /* library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38CE2FE724CC5E3D0006E5C9 /* library.jpg */; };
+		38CE2FEE24CC5E3D0006E5C9 /* livingRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38CE2FE824CC5E3D0006E5C9 /* livingRoom.jpg */; };
+		38CE2FEF24CC5E3D0006E5C9 /* pantry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38CE2FE924CC5E3D0006E5C9 /* pantry.jpg */; };
+		38CE2FF024CC5E3D0006E5C9 /* spareRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38CE2FEA24CC5E3D0006E5C9 /* spareRoom.jpg */; };
 		38EC865F24C30DAE007055F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC865E24C30DAE007055F3 /* AppDelegate.swift */; };
 		38EC866124C30DAE007055F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC866024C30DAE007055F3 /* SceneDelegate.swift */; };
 		38EC866324C30DAE007055F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC866224C30DAE007055F3 /* ViewController.swift */; };
@@ -44,6 +51,13 @@
 		1446803B556B74DEDE0EC007 /* Pods-UIStackViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIStackViewTests.debug.xcconfig"; path = "Target Support Files/Pods-UIStackViewTests/Pods-UIStackViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1538337A5CEDCEBC39C4D39B /* Pods_UIStackViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIStackViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38286C1824C3F545007425CF /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		386B46B824C87E53001D6137 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		38CE2FE524CC5E3D0006E5C9 /* diningRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = diningRoom.jpg; sourceTree = "<group>"; };
+		38CE2FE624CC5E3D0006E5C9 /* gameRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gameRoom.jpg; sourceTree = "<group>"; };
+		38CE2FE724CC5E3D0006E5C9 /* library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = library.jpg; sourceTree = "<group>"; };
+		38CE2FE824CC5E3D0006E5C9 /* livingRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = livingRoom.jpg; sourceTree = "<group>"; };
+		38CE2FE924CC5E3D0006E5C9 /* pantry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantry.jpg; sourceTree = "<group>"; };
+		38CE2FEA24CC5E3D0006E5C9 /* spareRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spareRoom.jpg; sourceTree = "<group>"; };
 		38EC865B24C30DAE007055F3 /* UIStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EC865E24C30DAE007055F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38EC866024C30DAE007055F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +119,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		38CE2FE424CC5D9C0006E5C9 /* rooms */ = {
+			isa = PBXGroup;
+			children = (
+				38CE2FE524CC5E3D0006E5C9 /* diningRoom.jpg */,
+				38CE2FE624CC5E3D0006E5C9 /* gameRoom.jpg */,
+				38CE2FE724CC5E3D0006E5C9 /* library.jpg */,
+				38CE2FE824CC5E3D0006E5C9 /* livingRoom.jpg */,
+				38CE2FE924CC5E3D0006E5C9 /* pantry.jpg */,
+				38CE2FEA24CC5E3D0006E5C9 /* spareRoom.jpg */,
+			);
+			path = rooms;
+			sourceTree = "<group>";
+		};
 		38EC865224C30DAE007055F3 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +157,7 @@
 		38EC865D24C30DAE007055F3 /* UIStackView */ = {
 			isa = PBXGroup;
 			children = (
+				38CE2FE424CC5D9C0006E5C9 /* rooms */,
 				38EC865E24C30DAE007055F3 /* AppDelegate.swift */,
 				38EC866024C30DAE007055F3 /* SceneDelegate.swift */,
 				38EC866224C30DAE007055F3 /* ViewController.swift */,
@@ -139,6 +167,7 @@
 				38EC866F24C30DB1007055F3 /* Info.plist */,
 				38EC866724C30DAE007055F3 /* UIStackView.xcdatamodeld */,
 				38286C1824C3F545007425CF /* LogInViewController.swift */,
+				386B46B824C87E53001D6137 /* HomePageViewController.swift */,
 			);
 			path = UIStackView;
 			sourceTree = "<group>";
@@ -284,8 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				38EC866E24C30DB1007055F3 /* LaunchScreen.storyboard in Resources */,
+				38CE2FED24CC5E3D0006E5C9 /* library.jpg in Resources */,
+				38CE2FEE24CC5E3D0006E5C9 /* livingRoom.jpg in Resources */,
 				38EC866B24C30DB1007055F3 /* Assets.xcassets in Resources */,
 				38EC866624C30DAE007055F3 /* Main.storyboard in Resources */,
+				38CE2FEB24CC5E3D0006E5C9 /* diningRoom.jpg in Resources */,
+				38CE2FF024CC5E3D0006E5C9 /* spareRoom.jpg in Resources */,
+				38CE2FEC24CC5E3D0006E5C9 /* gameRoom.jpg in Resources */,
+				38CE2FEF24CC5E3D0006E5C9 /* pantry.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +450,7 @@
 			files = (
 				38EC866324C30DAE007055F3 /* ViewController.swift in Sources */,
 				38EC865F24C30DAE007055F3 /* AppDelegate.swift in Sources */,
+				386B46B924C87E53001D6137 /* HomePageViewController.swift in Sources */,
 				38EC866124C30DAE007055F3 /* SceneDelegate.swift in Sources */,
 				38286C1924C3F545007425CF /* LogInViewController.swift in Sources */,
 				38EC866924C30DAE007055F3 /* UIStackView.xcdatamodeld in Sources */,

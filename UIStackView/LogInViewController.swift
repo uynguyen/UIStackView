@@ -121,6 +121,6 @@ class LoginViewController: UIViewController {
     
     @objc
     func btnLoginTouchUpInside() {
-        
+        self.navigationController?.show(HomePageViewController(), sender: self)
     }
 }
