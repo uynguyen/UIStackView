@@ -16,6 +16,7 @@
 		38CE2FEE24CC5E3D0006E5C9 /* livingRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38CE2FE824CC5E3D0006E5C9 /* livingRoom.jpg */; };
 		38CE2FEF24CC5E3D0006E5C9 /* pantry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38CE2FE924CC5E3D0006E5C9 /* pantry.jpg */; };
 		38CE2FF024CC5E3D0006E5C9 /* spareRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38CE2FEA24CC5E3D0006E5C9 /* spareRoom.jpg */; };
+		38CE2FF224CDCE410006E5C9 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CE2FF124CDCE410006E5C9 /* TaskView.swift */; };
 		38EC865F24C30DAE007055F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC865E24C30DAE007055F3 /* AppDelegate.swift */; };
 		38EC866124C30DAE007055F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC866024C30DAE007055F3 /* SceneDelegate.swift */; };
 		38EC866324C30DAE007055F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC866224C30DAE007055F3 /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 		38CE2FE824CC5E3D0006E5C9 /* livingRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = livingRoom.jpg; sourceTree = "<group>"; };
 		38CE2FE924CC5E3D0006E5C9 /* pantry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantry.jpg; sourceTree = "<group>"; };
 		38CE2FEA24CC5E3D0006E5C9 /* spareRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spareRoom.jpg; sourceTree = "<group>"; };
+		38CE2FF124CDCE410006E5C9 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		38EC865B24C30DAE007055F3 /* UIStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EC865E24C30DAE007055F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38EC866024C30DAE007055F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				38EC866724C30DAE007055F3 /* UIStackView.xcdatamodeld */,
 				38286C1824C3F545007425CF /* LogInViewController.swift */,
 				386B46B824C87E53001D6137 /* HomePageViewController.swift */,
+				38CE2FF124CDCE410006E5C9 /* TaskView.swift */,
 			);
 			path = UIStackView;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38EC866324C30DAE007055F3 /* ViewController.swift in Sources */,
+				38CE2FF224CDCE410006E5C9 /* TaskView.swift in Sources */,
 				38EC865F24C30DAE007055F3 /* AppDelegate.swift in Sources */,
 				386B46B924C87E53001D6137 /* HomePageViewController.swift in Sources */,
 				38EC866124C30DAE007055F3 /* SceneDelegate.swift in Sources */,

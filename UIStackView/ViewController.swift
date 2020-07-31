@@ -55,10 +55,10 @@ class ViewController: UIViewController {
         let heightConstraint = view.heightAnchor.constraint(equalToConstant: 50)
         heightConstraint.isActive = true
         heightConstraint.priority = UILayoutPriority(999)
-//        let dot = UIView()
-//        dot.backgroundColor = .red
-//        view.addSubview(dot)
-//        dot.snp.makeConstraints { (make) in
+//        let center = UIView()
+//        center.backgroundColor = .red
+//        view.addSubview(center)
+//        center.snp.makeConstraints { (make) in
 //            make.center.equalToSuperview()
 //            make.width.height.equalTo(7)
 //        }
@@ -74,10 +74,10 @@ class ViewController: UIViewController {
         let heightConstraint = view.heightAnchor.constraint(equalToConstant: 50)
         heightConstraint.isActive = true
         heightConstraint.priority = UILayoutPriority(999)
-//        let dot = UIView()
-//        dot.backgroundColor = .red
-//        view.addSubview(dot)
-//        dot.snp.makeConstraints { (make) in
+//        let center = UIView()
+//        center.backgroundColor = .red
+//        view.addSubview(center)
+//        center.snp.makeConstraints { (make) in
 //            make.center.equalToSuperview()
 //            make.width.height.equalTo(7)
 //        }
@@ -93,10 +93,10 @@ class ViewController: UIViewController {
         let heightConstraint = view.heightAnchor.constraint(equalToConstant: 100)
         heightConstraint.isActive = true
         heightConstraint.priority = UILayoutPriority(999)
-//        let dot = UIView()
-//        dot.backgroundColor = .red
-//        view.addSubview(dot)
-//        dot.snp.makeConstraints { (make) in
+//        let center = UIView()
+//        center.backgroundColor = .red
+//        view.addSubview(center)
+//        center.snp.makeConstraints { (make) in
 //            make.center.equalToSuperview()
 //            make.width.height.equalTo(7)
 //        }
